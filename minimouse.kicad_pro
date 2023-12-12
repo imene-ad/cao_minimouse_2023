@@ -413,10 +413,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "minimouse"
+      "minimouse",
+      "Library"
     ],
     "pinned_symbol_libs": [
-      "minimouse"
+      "minimouse",
+      "New_Library"
     ]
   },
   "meta": {
