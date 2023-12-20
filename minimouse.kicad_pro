@@ -418,7 +418,8 @@
     ],
     "pinned_symbol_libs": [
       "minimouse",
-      "New_Library"
+      "New_Library",
+      "Tx"
     ]
   },
   "meta": {
