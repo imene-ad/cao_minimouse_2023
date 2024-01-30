@@ -711,7 +711,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 328bcf35-0a5e-4754-a5ec-56971ce87aae)
-    (at 147.0875 78.955 -90)
+    (at 147.46 78.855 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "mm_mcu.kicad_sch")
@@ -720,7 +720,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/b5d7e952-00af-4b6f-924a-ee43c62726d2/8857870c-dd5f-4e77-9a65-426fc113ece1")
     (attr smd)
-    (fp_text reference "R9" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R9" (at 0.237258 0.5225 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 591e66ed-a20e-4f26-86ac-10ebdafe4899)
     )
@@ -2933,7 +2933,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp d0619624-1504-4967-997b-edb7bef97669)
-    (at 177.94 71.285 90)
+    (at 177.94 72.835 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "mm_motor_control.kicad_sch")
@@ -3205,9 +3205,6 @@
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 7e1b414f-5933-4aff-9993-14279401c6d0))
   (gr_line (start 118.5 140) (end 118.5 100)
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 9b879d57-36e2-4488-9cba-cba307f3c1c2))
-
-  (segment (start 129.245 86.04) (end 130.505 87.3) (width 0.2) (layer "F.Cu") (net 64) (tstamp 099eff91-d6cb-450c-9756-faf884d461fa))
-  (segment (start 122.06 86.04) (end 129.245 86.04) (width 0.2) (layer "F.Cu") (net 64) (tstamp 5a38cf76-43b7-410d-9f66-762ab0ef2de5))
 
   (group "" (id 31bb09ae-506e-485d-9a47-edcfb72f895d)
     (members
